@@ -4,7 +4,7 @@
     1. `git rm -r --cached .`
     1. `git add .`
     1. `git commit -m "fixed untracked files"`
-    1. `git log --no-merges old_branch ^dev` show commits on old branch that are missing from dev
+* show commits on old branch that are missing from dev: `git log --no-merges old_branch ^dev` 
 * Set origin for a non-tracking branch: ` git branch -u origin/dev`    
 # PHP
 # Cake
